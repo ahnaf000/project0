@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang ="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About Us</title>
+        <link rel = stylesheet href="css/booking.css">
+        <link rel = stylesheet href="css/header-footer.css">
+        <link rel = stylesheet href="css/common.css">
+    </head>
+    <body>
+
+        <header>
+            <div class = headerCard >
+                <h1>
+                    <img src="images/output-onlinepngtools.png" >
+                     Khana Pina
+                </h1>
+
+            </div>
+            <div class=nav-bar >
+                <p><a href="index.html">Home</a></p>
+                <p><a href="about-us.html">About</a></p>
+                <p><a href="menu.html">Menu</a></p>
+                <p><a href="specials.html">Specials</a></p>
+                <p><a href="booking.html">Reservations</a></p>
+            </div>
+        </header>
+        <div>
+            <div class = "booking-form" >
+                <form>
+                    <fieldset>
+                        <legend>Customize Your Reservation</legend>
+                        <label for="fname">First name:</label><br>
+                        <input type="text" id="fname" name="fname" placeholder="Your First Name"><br>
+
+                        <label for="lname">Last name:</label><br>
+                        <input type="text" id="lname" name="lname" placeholder="Your Last Name"><br>
+
+                        <label for = "quantity">Party Size:</label><br>
+                        <input type="number" id="quantity" name="quantity" placeholder="2" min="1" max="25"><br>
+
+                        <label for = 'booking-date'>Date Of Booking:</label><br>
+                        <input type = "date" id = "booking-date" name="booking-date"><br>
+
+                        <label for="time-slots">Choose Your Preffered Time:</label><br>
+                        <input list = "time-slots">
+                        <datalist id="time-slots">
+                            <option value="1700-1710"></option>
+                            <option value="1710-1720"></option>
+                            <option value="1720-1730"></option>
+                            <option value="1730-1740"></option>
+                            <option value="1740-1750"></option>
+                            <option value="1750-1800"></option>
+                            <option value="1800-1810"></option>
+                            <option value="1810-1820"></option>
+                            <option value="1820-1830"></option>
+                            <option value="1830-1840"></option>
+                            <option value="1840-1850"></option>
+                            <option value="1850-1900"></option>
+                            <option value="1900-1910"></option>
+                            <option value="1910-1920"></option>
+                            <option value="1920-1930"></option>
+                            <option value="1930-1940"></option>
+                            <option value="1940-1950"></option>
+                            <option value="1950-2000"></option>
+                            <option value="2000-2010"></option>
+                            <option value="2010-2020"></option>
+                            <option value="2020-2030"></option>
+                            <option value="2030-2040"></option>
+                            <option value="2040-2050"></option>
+                            <option value="2050-2100"></option>
+                            <option value="2100-2110"></option>
+                            <option value="2110-2120"></option>
+                            <option value="2120-2130"></option>
+                            <option value="2130-2140"></option>
+                            <option value="2140-2150"></option>
+                            <option value="2150-2200"></option>
+                            <option value="2200-2210"></option>
+                            <option value="2210-2220"></option>
+                            <option value="2220-2230"></option>
+                            <option value="2230-2240"></option>
+                            <option value="2240-2250"></option>
+                            <option value="2250-2300"></option>
+                        </datalist><br>
+
+                        <label for = "add-info">Special Requirements:</label><br>
+                        <textarea id="add-info" name="add-info" cols="50" rows="5" maxlength="200"
+                                  placeholder="Please let us know if you have any special requests in this section"></textarea>
+                        <br>
+                        <br>
+                        <br>
+                        <input type="button" value="Check For Availability">
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        <footer>
+            <div >
+                <p>This was made by <strong>Ahnaf Abrar Kabir</strong></p>
+                <p>Email: <code>ahnafk000@gmail.com</code></p>
+            </div>
+            <div>
+                <p>Education: Loughborough University</p>
+            </div>
+        </footer>
+
+    </body>
+</html>
+

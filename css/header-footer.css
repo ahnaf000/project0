@@ -1,0 +1,91 @@
+.headerCard{
+    display: flex;
+    justify-content: center;
+    align: center;
+
+}
+
+h1{
+
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    top: -1px;
+    margin: 0;
+    padding: 5px 30px;
+    line-height: 58px;
+    color: #fff;
+    background-color: black;
+    font-size: 50px;
+    font-weight: 400;
+    vertical-align: middle;
+    text-transform: uppercase;
+
+}
+
+header > .headerCard{
+    /*background-color: rgb(186, 211, 212);*/
+    border: 7px solid white;
+
+
+}
+header > .headerCard > h1 > img{
+    Width:110px;
+    Height: 150px;
+}
+
+.nav-bar{
+    display:flex;
+    justify-content: space-between;
+    padding: 5px;
+
+    background-color:#b3b1b0;
+    color:black;
+    align-items:center;
+    font-family: consolas;;
+    font-weight: 400;
+}
+
+.nav-bar a{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: black;
+    text-transform: uppercase;
+    Letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 14px;
+    overflow: hidden;
+    transition: 0.2s;
+
+}
+
+
+.nav-bar a:hover{
+    color: #c7890e;
+    background: black;
+    box-shadow: 0 0 10px #c7890e, 0 0 40px #c7890e,
+                0 0 80px #c7890e;
+}
+
+
+
+
+footer {
+    padding: 4px ;
+    margin 5px;
+    background-color:rgb(186, 211, 212);
+    border: dashed white;
+    display: flex;
+}
+
+footer div{
+
+    border: 1px #ccc solid;
+    border-color: white;
+    padding : 10px;
+    flex: 1;
+
+
+
+}
