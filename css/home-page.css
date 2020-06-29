@@ -41,6 +41,58 @@
     text-align: center;
 
 }
+#about{
+    background-color: white;
+    text-align: center;
+    padding: 5px 10px;
+    display: inline-block;
+}
+#not-owner-image{
+    width:75%;
+    float:right;
+    border-collapse: collapse;
+}
 
 
+.our-quote {
+    text-align: center;
+    display: inline-block;
+    font-size: 25px;
+    font-family: courier-new;
+    background-color: white;
+    width:100%;
+}
 
+#owner-image>img{
+    width:23%;
+    float:left;
+    height:100%;
+    opacity: .8;
+}
+.about-us {
+    text-align: left;
+}
+
+#owner-image{
+    margin: 1px;
+
+}
+
+@media print{
+    .our-quote, #about{
+        display: none;
+    }
+}
+
+@media (max-width: 499px){
+    .image{
+        display: none;
+    }
+}
+
+
+@media (max-width: 630px){
+    #owner-image{
+        display: none;
+    }
+}

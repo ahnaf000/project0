@@ -2,11 +2,12 @@
 <html lang ="en-US">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>About Us</title>
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <link rel = stylesheet href="css/booking.css">
         <link rel = stylesheet href="css/header-footer.css">
         <link rel = stylesheet href="css/common.css">
+        <title>Reservations</title>
     </head>
     <body>
 
@@ -36,6 +37,12 @@
 
                         <label for="lname">Last name:</label><br>
                         <input type="text" id="lname" name="lname" placeholder="Your Last Name"><br>
+
+                        <label for="email">Email:</label><br>
+                        <input type="text" id="email" name="email" placeholder="eg. email@gmail.com"><br>
+
+                        <label for="number">Contact Number:</label><br>
+                        <input type="tel" id="number" name="number" placeholder="eg. +8801763893040"><br>
 
                         <label for = "quantity">Party Size:</label><br>
                         <input type="number" id="quantity" name="quantity" placeholder="2" min="1" max="25"><br>
@@ -90,7 +97,8 @@
                         <br>
                         <br>
                         <br>
-                        <input type="button" value="Check For Availability">
+
+                        <button type="button" class="btn btn-outline-dark">Check For Availability</button>
                     </fieldset>
                 </form>
             </div>
