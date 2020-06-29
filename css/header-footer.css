@@ -75,7 +75,7 @@ footer {
     padding: 4px ;
     margin 5px;
     background-color:rgb(186, 211, 212);
-    border: dashed white;
+    border: solid black;
     display: flex;
 }
 

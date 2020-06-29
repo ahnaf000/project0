@@ -1,4 +1,4 @@
-
+$nothing: none;
 
 /*This .image is used in the home page*/
 .image{
@@ -70,9 +70,16 @@
     opacity: .8;
 }
 
-.about-us, .heritage, .staff {
+%align{
     text-align: left;
 }
+
+.about-us, .heritage, .staff{
+    @extend %align
+}
+
+
+
 
 
 #owner-image{
@@ -82,19 +89,19 @@
 
 @media print{
     .our-quote, #about{
-        display: none;
+        display: $nothing;
     }
 }
 
 @media (max-width: 499px){
     .image{
-        display: none;
+        display: $nothing;
     }
 }
 
 
 @media (max-width: 630px){
     #owner-image{
-        display: none;
+        display: $nothing;
     }
 }
